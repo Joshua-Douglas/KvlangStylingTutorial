@@ -9,9 +9,7 @@ Param(
     [System.IO.FileInfo]
     $Path = $PSScriptRoot,
     [string]
-    $Name = "kivytutorial",
-    [switch]
-    $Regenerate
+    $Name = "kivytutorial"
 )
 
 $venvPath = Join-Path $Path $Name
@@ -23,9 +21,6 @@ Invoke-Expression $activatePath
 
 $srcPath = $PSScriptRoot
 python -m pip install --upgrade pip 
-
-python -m pip install pipreqs
-pipreqs $srcPath --force
 
 $reqsPath = Join-Path $srcPath "requirements.txt"
 python -m pip install -r $reqsPath
