@@ -1,4 +1,9 @@
-# An Introduction to Styling Widgets in Kivy with kvlang
+---
+title: Introduction to Python Visual Programming with Kvlang
+created: '2-24-2023'
+license: 'public-domain'
+tags: ['Python', 'Kvlang', 'Kivy', 'Visual Programming', 'Software Development', 'Programming', 'UI', 'Beginner-Friendly', 'GUI Programming', 'User Interface']
+---
 
 [Kivy](https://kivy.org/doc/stable/) is an open-source visual programming framework, that supports the development of cross-platform Python applications. Kivy uses a custom markdown-style language, [kvlang](https://kivy.org/doc/stable/guide/lang.html), to describe the component structure, style, and functionality. The kv language is a feature-rich and nuanced declarative language that can be challenging to fully appreciate when first encountering Kivy.
 
